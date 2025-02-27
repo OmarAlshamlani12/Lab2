@@ -1,0 +1,72 @@
+
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: 'Arial', sans-serif; /* Use Arial font */
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Dark gray text color */
+}
+
+
+h1 {
+    color: #2c3e50; /* Dark blue heading color */
+    font-size: 2.5em; /* Larger font size */
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+
+p {
+    font-size: 1.1em; /* Slightly larger font size */
+    line-height: 1.6; /* Improve readability with more line spacing */
+    margin-bottom: 20px; /* Add space below each paragraph */
+    padding: 15px; /* Add padding inside paragraphs */
+    background-color: #ffffff; /* White background for paragraphs */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+ol {
+    color: #34495e; /* Dark gray text color */
+    margin-left: 40px; /* Indent the list */
+    margin-bottom: 20px; /* Add space below the list */
+    padding: 15px; /* Add padding inside the list */
+    background-color: #ffffff; /* White background for the list */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+ol li {
+    margin-bottom: 10px; /* Add space between list items */
+}
+
+
+img {
+    display: block; /* Make the image a block element */
+    margin: 0 auto 20px; /* Center the image and add space below */
+    border: 4px solid #2c3e50; /* Add a border around the image */
+    border-radius: 15px; /* Rounded corners for the image */
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+a {
+    color: #2980b9; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the link bold */
+}
+
+a:hover {
+    color: #3498db; /* Change link color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+p:last-of-type {
+    background-color: #ecf0f1; /* Light gray background for the last paragraph */
+    padding: 15px; /* Add padding */
+    border-left: 5px solid #2980b9; /* Add a left border for emphasis */
+}
